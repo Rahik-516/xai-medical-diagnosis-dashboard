@@ -44,6 +44,29 @@ https://www.kaggle.com/code/ismrahik/xai-medical-diagnosis-final
 - Confidence‑based interpretation bands and decision thresholds
 - Static and dynamic galleries of XAI figures for reproducibility
 
+## Screenshots of the Project:
+Home Page: 
+<img width="1890" height="908" alt="image" src="https://github.com/user-attachments/assets/985d6269-1925-4dcb-8c72-3753e654918c" />
+
+Diabetes Prediction:
+<img width="1894" height="932" alt="image" src="https://github.com/user-attachments/assets/aa51ea06-16e4-479b-89b5-c9076f940890" />
+<img width="1899" height="896" alt="image" src="https://github.com/user-attachments/assets/b96a7844-f306-43f6-a711-b74ca8e618f4" />
+
+Heart Disease Prediction:
+<img width="1907" height="893" alt="image" src="https://github.com/user-attachments/assets/fc7024ab-e586-49d0-83f0-c3391552b6dd" />
+<img width="1912" height="880" alt="image" src="https://github.com/user-attachments/assets/94f470e8-f1b4-40fb-9083-d9f3e1e21fea" />
+
+Pneumonia Detection:
+<img width="1905" height="870" alt="image" src="https://github.com/user-attachments/assets/3db13c54-02f1-46ad-bbed-d708c53ac501" />
+<img width="1890" height="917" alt="image" src="https://github.com/user-attachments/assets/c95469b3-958d-4a15-a0e5-ff792a1724c0" />
+
+About / Methodology:
+<img width="1899" height="842" alt="image" src="https://github.com/user-attachments/assets/a958f42c-16a5-4e3a-b97d-c478172b3301" />
+<img width="1909" height="906" alt="image" src="https://github.com/user-attachments/assets/0336e5e8-0a73-4aec-8550-d10d7b3a9fae" />
+<img width="1913" height="810" alt="image" src="https://github.com/user-attachments/assets/a100a029-d479-46cb-8653-539389f0eab1" />
+
+
+
 ## Technology Stack
 
 - Python
