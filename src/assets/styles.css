@@ -18,18 +18,56 @@
 .stApp {
     font-family: "Avenir Next", "Trebuchet MS", "Segoe UI", sans-serif;
     color: var(--text-main);
+    color-scheme: light;
     background:
         radial-gradient(1100px 620px at -12% -20%, #caddea 0%, transparent 60%),
         radial-gradient(900px 560px at 112% 0%, #dbe8f2 0%, transparent 55%),
         linear-gradient(165deg, var(--bg-base) 0%, var(--bg-mid) 46%, var(--bg-soft) 100%);
 }
 
-.main .block-container {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: 18px;
-    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.09);
-    padding: 1.15rem 1.25rem 1.3rem 1.25rem;
+[data-testid="stAlert"] {
+    border-radius: 12px;
+    border: 1px solid var(--warning-line);
+    background: var(--warning-bg);
+    color: var(--text-main) !important;
+}
+
+[data-testid="stAlert"] p,
+[data-testid="stAlert"] div,
+[data-testid="stAlert"] span,
+[data-testid="stAlert"] li,
+[data-testid="stAlert"] strong,
+[data-testid="stAlert"] svg {
+    color: var(--text-main) !important;
+    fill: currentColor !important;
+}
+
+[data-testid="stFileUploader"] {
+    color: var(--text-main) !important;
+}
+
+[data-testid="stFileUploader"] * {
+    color: var(--text-main) !important;
+}
+
+[data-testid="stFileUploader"] button {
+    background: linear-gradient(180deg, #1b8093 0%, #11677a 100%) !important;
+    color: #f8fafc !important;
+    border: 1px solid #0f5a6c !important;
+    border-radius: 12px !important;
+    font-weight: 700 !important;
+}
+
+[data-testid="stFileUploader"] button:hover {
+    background: linear-gradient(180deg, #2390a4 0%, #14748a 100%) !important;
+    color: #f8fafc !important;
+}
+
+[data-testid="stFileUploader"] small,
+[data-testid="stFileUploader"] p,
+[data-testid="stFileUploader"] label,
+[data-testid="stFileUploader"] span {
+    color: var(--text-muted) !important;
 }
 
 h1,
@@ -212,11 +250,6 @@ div[role="option"]:hover {
     background: linear-gradient(180deg, #2390a4 0%, #14748a 100%);
 }
 
-[data-testid="stAlert"] {
-    border-radius: 12px;
-    border: 1px solid var(--warning-line);
-    background: var(--warning-bg);
-}
 
 [data-testid="stDataFrame"] {
     border: 1px solid var(--line);
